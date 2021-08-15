@@ -1,4 +1,4 @@
-#[link(name = "tst_so", kind = "dylib", link_args = "-Wl,-rpath,./")]
+#[link(name = "tst_so", kind = "dylib")]
 extern "C" {
     pub fn get_sum(a: u32, b: u32) -> u32;
 }
